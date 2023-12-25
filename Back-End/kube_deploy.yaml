@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  labels:
+    app: backend-server
+spec:
+  selector:
+    matchLabels:
+      app: backend-server
+  template:
+    metadata:
+      labels:
+        app: backend-server
+    spec:
+      containers:
+      - name: backend-server
+        image: docker.io/carloscrmrz/evildev-backend:latest
+        ports:
+        - containerPort: 5000

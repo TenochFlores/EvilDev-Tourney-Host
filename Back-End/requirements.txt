@@ -1,0 +1,8 @@
+flask~=2.3.3
+flask-cors
+flask_sqlalchemy
+pycryptodome
+pymysql
+cryptography
+
+SQLAlchemy~=2.0.23

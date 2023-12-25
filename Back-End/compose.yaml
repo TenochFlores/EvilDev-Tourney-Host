@@ -1,0 +1,22 @@
+services:
+  db:
+    container_name: db
+    image: mysql:8.0
+    command: --init-file /data/application/init.sql
+    restart: always
+    volumes:
+      - ./database/DDL.sql:/data/application/init.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_USER: devEvilDev
+      MYSQL_PASSWORD: Password1
+    ports:
+      - "3306:3306"
+  web:
+    build:
+      context: .
+      target: builder
+    tty: true
+    stop_signal: SIGINT
+    ports:
+      - '5000:5000'
