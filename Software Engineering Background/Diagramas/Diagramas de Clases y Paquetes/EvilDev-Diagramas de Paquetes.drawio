@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2023-10-21T01:47:17.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="VxvoEGrx-asRmNwEpMDX" version="22.0.6" type="google">
+  <diagram name="Página-1" id="UPdanoPQj8irITLxJ3jQ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MygDGelbfHjvNn6pyy2d-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Diagrama de paquetes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="223.5" y="330" width="211" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-4" value="Controlador" style="shape=folder;fontStyle=1;tabWidth=76;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="254" y="100" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-5" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="MygDGelbfHjvNn6pyy2d-4">
+          <mxGeometry width="150" height="70" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-6" value="Modelo" style="shape=folder;fontStyle=1;tabWidth=60;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-7" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="MygDGelbfHjvNn6pyy2d-6">
+          <mxGeometry width="150" height="70" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-8" value="Vista" style="shape=folder;fontStyle=1;tabWidth=50;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-9" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="MygDGelbfHjvNn6pyy2d-8">
+          <mxGeometry width="150" height="70" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=150;exitDy=40;exitPerimeter=0;entryX=0.096;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MygDGelbfHjvNn6pyy2d-6" target="MygDGelbfHjvNn6pyy2d-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="310" as="sourcePoint" />
+            <mxPoint x="330" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=80;exitPerimeter=0;entryX=0.839;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MygDGelbfHjvNn6pyy2d-4" target="MygDGelbfHjvNn6pyy2d-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="270" as="sourcePoint" />
+            <mxPoint x="278" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.007;exitY=0.269;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.89;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MygDGelbfHjvNn6pyy2d-8" target="MygDGelbfHjvNn6pyy2d-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="270" as="sourcePoint" />
+            <mxPoint x="278" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=150;exitDy=80;exitPerimeter=0;entryX=0.085;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MygDGelbfHjvNn6pyy2d-4" target="MygDGelbfHjvNn6pyy2d-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469" y="257" as="sourcePoint" />
+            <mxPoint x="398" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-14" value="+Cliente" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="760" y="20" width="246" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-16" value="+Servidor" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="10" width="246" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-17" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Diagrama de distribución&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="885.75" y="440" width="266.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=195;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=205;entryDy=246;entryPerimeter=0;" edge="1" parent="1" source="MygDGelbfHjvNn6pyy2d-14" target="MygDGelbfHjvNn6pyy2d-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="130" as="sourcePoint" />
+            <mxPoint x="1060" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-20" value="Vista" style="shape=folder;fontStyle=1;tabWidth=50;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="808" y="170" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-21" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="MygDGelbfHjvNn6pyy2d-20">
+          <mxGeometry width="150" height="70" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-22" value="Controlador" style="shape=folder;fontStyle=1;tabWidth=76;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1102" y="82.5" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-23" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="MygDGelbfHjvNn6pyy2d-22">
+          <mxGeometry width="150" height="70" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-24" value="Modelo" style="shape=folder;fontStyle=1;tabWidth=60;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1102" y="237.5" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MygDGelbfHjvNn6pyy2d-25" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="MygDGelbfHjvNn6pyy2d-24">
+          <mxGeometry width="150" height="70" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
