@@ -23,4 +23,11 @@
     `Front-End/evildev-project-front/`
 * Y estando en este directorio ejecutará `npm install` para que se instalen las dependencias usadas de react.
 * Una vez completada la descarga de dependencias podrá iniciar el front con `npm start`
+ 
+### Integrantes
+* Tenoch Itzin Flores Rojas
+* Diego Angel Rosas Franco
+* Carlos Cabrera Ramirez
+* Luis Sebastian Arrieta Mancera
+* Samuel Jiménez Milke
 
